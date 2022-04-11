@@ -614,7 +614,7 @@ footer {
 @media (max-width: 768px) {
   /* INDEX HTML */
   .index__section__container {
-    font-size: 16px;
+    font-size: 12px;
   }
   .index__section__container h2 {
     margin: 20px;
