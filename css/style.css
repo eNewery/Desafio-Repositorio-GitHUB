@@ -475,6 +475,14 @@ footer {
     padding: 10px 80px 10px 80px;
   }
   /* CONTACT HTML */
+  .input__submit input{
+    position:relative;
+    bottom:40px;
+  }
+  .formulario legend{
+    position:relative;
+    top:30px;
+  }
   /* FAQ HTML */
   /* ABOUT HTML */
   .about__container {
@@ -498,6 +506,16 @@ footer {
   }
 }
 @media (max-width: 1024px) {
+  /* CONTACT HTML */
+  .section__container h1{
+  }
+  .input__submit input{
+    position:relative;
+    bottom:40px;
+  }
+  .input__nombre{
+    width: 400px;
+  }
   /* NAV */
   nav {
     border: none;
@@ -612,6 +630,19 @@ footer {
 
 }
 @media (max-width: 768px) {
+    /* CONTACT HTML */
+    .formulario{
+      gap:40px;
+      align-items: center;
+    }
+    .input__nombre{
+      padding: 22px;
+      width: 325px;
+    }
+    .input__submit input{
+      position:relative;
+      bottom:20px;
+    }
   /* INDEX HTML */
   .index__section__container {
     font-size: 16px;
@@ -701,5 +732,18 @@ footer {
   /* ABOUT HTML */
   .about__container p{
     margin:0;
+  }
+  /* CONTACT HTML */
+  .formulario{
+    gap:30px;
+    align-items: center;
+  }
+  .input__nombre{
+    padding: 20px;
+    width: 300px;
+  }
+  .input__submit input{
+    position:relative;
+    bottom:10px;
   }
 }
